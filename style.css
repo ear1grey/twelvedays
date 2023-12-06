@@ -1,0 +1,49 @@
+
+body {
+  min-height: 100vh;
+  background: repeating-linear-gradient(45deg, #AA0000, #AA0000 1em, green 1em, green 2em);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+  color: white;
+  font-size: 6vw;
+}
+
+span {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+span:hover {
+  background: white;
+  color: #A00;
+  padding: 0 0.25em;
+  margin: 0 -0.25em;
+  border-radius: 0.25em;
+}
+
+article {
+  max-width: 66em;
+  font-size: clamp(1em, 2vw, 2em);
+  background: #AA0000;
+  color: white;
+  padding: 1em 2em;
+  border-radius: 2em;
+  border: green 0.5em solid;
+  column-width: 20em;
+}
+
+p {
+  break-inside: avoid-column;
+}
+
+.g5 {
+  display: inline-block;
+  color: gold;
+  font-weight: bold;
+  text-shadow: 0.01em 0.01em 0.2em black ;
+}
