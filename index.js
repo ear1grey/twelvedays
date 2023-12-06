@@ -23,7 +23,7 @@ function generateWords() {
 
 function oneTheNthDayOfChristmas(num) {
     const words = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth", "eleventh", "twelfth"];
-    return `On the ${words[num-1]} day of christmas my true love gave to me:`;
+    return `On the ${words[num-1]} day of Christmas my true love gave to me:`;
 }
 
 function gift(num, last=false) {
@@ -33,11 +33,11 @@ function gift(num, last=false) {
         "three french hens",
         "four calling birds",
         "five gold rings",
-        "six geese a laying",
-        "seven swans a swimming",
-        "eight maids a milking",
+        "six geese a-laying",
+        "seven swans a-swimming",
+        "eight maids a-milking",
         "nine ladies dancing",
-        "ten lords a leaping",
+        "ten lords a-leaping",
         "eleven pipers piping",
         "twelve drummers drumming"
     ];
